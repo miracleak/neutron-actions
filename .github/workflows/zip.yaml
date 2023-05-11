@@ -1,11 +1,11 @@
 name: Hello world workflow
 on:
- push:
-   branches:
-     -main
+  push:
+    branches:
+     -master
   pull_request:
     branches:
-      -main
+      -master
   workflow-dispatch:
 
 jobs:
