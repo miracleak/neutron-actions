@@ -1,4 +1,4 @@
-name: Hello world workflow
+name: Zip workflow
 on:
   push:
     branches:
