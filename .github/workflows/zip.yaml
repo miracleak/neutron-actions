@@ -16,7 +16,7 @@ jobs:
        - name: sunflower
          run: echo "Sunflower"
          shell: bash
-  goodbye:    
+goodbye:    
     runs-on: ubuntu-latest
     steps:
       - name: goodbye world
