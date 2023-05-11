@@ -1,4 +1,4 @@
-name: Zip workflow
+name: Hello world workflow
 on:
   push:
     branches:
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-   hello:
+  hello:
      runs-on: ubuntu-latest
      steps:
        - uses: action/checkout@v2
