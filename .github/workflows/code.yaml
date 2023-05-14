@@ -15,7 +15,7 @@ jobs:
         uses: peter-evans/create-or-update-comment@v3
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
-          issue-number: $ {{ github.event.issue.number }}
+          issue-number: ${{ github.event.issue.number }}
           body: |
             This is a multi-line test comment
             - With GitHub **Markdown** :sparkles:
